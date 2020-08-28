@@ -1,10 +1,13 @@
 # include <stdio.h>
 
+// Function Declaration - Prototype Declaration
+float average(int,int);
+
 void main()
 {
    float a;
 
-      a = average(10,15);
+      a = average(10,15); // call to function
 }
 
 // Function Definition
