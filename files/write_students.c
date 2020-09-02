@@ -13,7 +13,7 @@ void main()
   struct student s;
 
 
-     fp = fopen("students.dat","wb");  // write-binary
+     fp = fopen("students.dat","ab");  // write-binary
      if(fp == NULL)  // open failed
      {
          printf("Sorry! File students.dat not opened. Quitting.");
